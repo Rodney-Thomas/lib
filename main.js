@@ -1,11 +1,11 @@
 let date = Date();
-able = false;
+let able = 'true';
 
 
 function start() {
   if(date.includes('Fri') != date)
   {
-    let able = true;
+    let able = 'false';
   }
 }
 
