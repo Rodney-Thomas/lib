@@ -3,8 +3,9 @@ able = false;
 
 
 function start() {
-  if(date.includes('Fri') == date)
+  if(date.includes('Fri') != date)
   {
     let able = true;
   }
 }
+
